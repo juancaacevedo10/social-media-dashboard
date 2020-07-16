@@ -23,6 +23,7 @@ function App () {
       mq.removeListener(changeMedia)
     }
   }, [])
+
   return (
     <main className={mainClass}>
       <Header>
